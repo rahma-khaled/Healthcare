@@ -42,6 +42,13 @@ Star-style model built on the Northwind tables with a Calendar table and a separ
   <img src="images/powerbi_model.png" alt="Power BI data model" width="90%">
 </p>
 
+## Interactive Web Dashboard
+
+An interactive dashboard built with vanilla HTML, modern CSS, and Chart.js is available in [`docs/`](../docs/).
+
+- **Live Deployment**: Ready for instant hosting via GitHub Pages (source `/docs` folder) or Vercel (`vercel.json` provided).
+- **Features**: Real-time KPI summaries, Revenue & monthly trends, Product & Category breakdowns, Customer & Geo distribution, Logistics & late shipping analysis, and Discount effectiveness analysis.
+
 ## Key Findings
 
 - Total revenue: 1,265,793 across 830 orders from 89 customers, average order 1,525
@@ -58,6 +65,6 @@ Note: 1996 covers half a year and 1998 less than five months, so yearly totals a
 
 ## How to Run
 
-1. Restore the Northwind database in SQL Server
-2. Open `Northwind_Final_Queries.sql` and run it
-3. Open the `.pbix` file in Power BI Desktop
+1. **SQL Exploration**: Restore the Northwind database in SQL Server, then open and execute `Northwind_Final_Queries.sql`.
+2. **Power BI Dashboard**: Open `Northwind_Windfall_Data_mini.pbix` in Power BI Desktop.
+3. **Interactive Web Dashboard**: Open `docs/index.html` directly in any modern browser, or deploy the repository using GitHub Pages / Vercel.
