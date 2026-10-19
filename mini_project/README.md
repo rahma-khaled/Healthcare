@@ -46,7 +46,7 @@ Star-style model built on the Northwind tables with a Calendar table and a separ
 
 An interactive dashboard built with vanilla HTML, modern CSS, and Chart.js is available in [`docs/`](../docs/).
 
-- **Live Deployment**: Ready for instant hosting via GitHub Pages (source `/docs` folder) or Vercel (`vercel.json` provided).
+- **Live Demo**: [healthcare-rosy-iota.vercel.app](https://healthcare-rosy-iota.vercel.app/)
 - **Features**: Real-time KPI summaries, Revenue & monthly trends, Product & Category breakdowns, Customer & Geo distribution, Logistics & late shipping analysis, and Discount effectiveness analysis.
 
 ## Key Findings
@@ -67,4 +67,5 @@ Note: 1996 covers half a year and 1998 less than five months, so yearly totals a
 
 1. **SQL Exploration**: Restore the Northwind database in SQL Server, then open and execute `Northwind_Final_Queries.sql`.
 2. **Power BI Dashboard**: Open `Northwind_Windfall_Data_mini.pbix` in Power BI Desktop.
-3. **Interactive Web Dashboard**: Open `docs/index.html` directly in any modern browser, or deploy the repository using GitHub Pages / Vercel.
+3. **Interactive Web Dashboard**: Visit the live demo at [healthcare-rosy-iota.vercel.app](https://healthcare-rosy-iota.vercel.app/) or open `docs/index.html` locally in any modern browser.
+
